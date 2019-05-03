@@ -1,0 +1,78 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.header p {
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	font-size: 1.5em;
+	line-height: 1.2em;
+	text-align: center;
+}
+
+.top {
+	height: 92vh;
+}
+
+.topSpace {
+	margin-top: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+#contact {
+	background-color: #7410E8;
+	border-radius: 15px 15px 15px 15px;
+}
+
+#displayPic {
+	width: 250px;
+}
+
+#about {
+	color: #948c8c;
+}
+
+.card {
+	background-color: #7410E8;
+	height: 18em;
+	margin: 1.5em;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.card-title {
+	margin-top: 1.5em;
+	color: #fff;
+}
+
+.card img {
+	width: 25%;
+	margin: auto;
+	margin-top: 1em;
+}
+
+.card-text {
+	color: #dee4ed;
+	font-size: 0.8em;
+}
+
+.custom {
+	padding: 0;
+}
+
+.social img {
+	width: 100px;
+	height: 100px;
+	margin: 0 20px;
+}
+
+.form-control {
+	border: none;
+	border-bottom: 2px solid #918E8E;
+	color: #918E8E;
+}
