@@ -1,133 +1,27 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Welcome</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="app.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-</head>
-<body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<div class="navbar-brand">
-			<img src="assets/logo.png" width="50dp">
-		</div>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    		<span class="navbar-toggler-icon"></span>
-  		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="/register">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="/logout">Services</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="/logout">Contact Me</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-	<div class="container">
-		<div class="row top text-center">
-			<div class="col-12 col-md-6 header order-2 order-md-1 m-auto text-center" >
-					<p>Hello</p>
-					<p>I'm <strong>Vivek Kairi</strong></p>
-					<p>Android/Web Developer</p>
-					<button class="btn btn-primary" id="contact">Contact Me</button>
-			</div>
-			<div class="col-12 col-md-6 order-1 order-md-2 m-auto">
-				<img class="img-fluid" id="displayPic" src="assets/image.png">
-			</div>
-		</div>
-		<div class="row text-center">
-			<div class="col-12 col-md-6 header order-1 order-md-2 m-auto text-center">
-				<h1>About Me</h1>
-				<p id="about">I’m a 19 years old guy with deep interest in technology and currently pursuing B.E in CSE. I’m a developer, designer and blogger. My major fields of interest are Data science, Python scripting, Android and Web development.</p>
-			</div>
-			<div class="col-12 col-md-6 order-2 order-md-1 m-auto">
-				<img class="img-fluid" id="displayPic" src="assets/about.png">
-			</div>
-		</div>
-		<div class="row topSpace">
-			<div class="col-12 text-center">
-				<h1>Services</h1>
-			</div>
-			<div class="col-lg-3 col-6 custom">
-				<div class="card text-center">
-  					<img src="assets/android.png" class="card-img-top" alt="">
-  					<h5 class="card-title">Android Development</h5>
-  					<div class="card-body">
-    					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-6 custom">
-				<div class="card text-center">
-  					<img src="assets/web.png" class="card-img-top" alt="">
-  					<h5 class="card-title">Web Development</h5>
-  					<div class="card-body">
-    					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-6 custom">
-				<div class="card text-center">
-  					<img src="assets/python.png" class="card-img-top" alt="">
-  					<h5 class="card-title">Python Scripting</h5>
-  					<div class="card-body">
-    					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-6 custom">
-				<div class="card text-center">
-  					<img src="assets/auto.png" class="card-img-top" alt="">
-  					<h5 class="card-title">Web Automation</h5>
-  					<div class="card-body">
-    					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row topSpace">
-			<div class="col text-center">
-				<h1>Let's Connect</h1>
-				<div class="m-auto social">
-					<img src="assets/fb.png">
-					<img src="assets/insta.png">
-					<img src="assets/github.png">
-					<img src="assets/linkedin.png">
-				</div>
-			</div>
-		</div>
-		<div class="row topSpace">
-			<div class="col text-center">
-				<h1>Let's Get In Touch</h1>
-				<form>
-					<div class="row mx-5">
-						<div class="col">
-							<div class="form-group">
-								<input type="email" class="form-control" name="name" placeholder="Your name">
-							</div>
-						</div>
-						<div class="col">
-							<div class="form-group">
-								<input type="email" class="form-control" name="email" placeholder="Your Email">
-							</div>
-						</div>
-					</div>
-					<div class="form-group mx-5">
-						<textarea class="form-control" name="content" rows="3" placeholder="Your content"></textarea>
-					</div>
-					<button class="btn btn-primary" id="contact">Send</button>
-				</form>
-			</div>
-		</div>
-	</div>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+    <title>Vivek Kairi</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="info">
+          <img src="photo.png" alt="">
+          <p class="city">NASHIK, INDIA</p>
+        </div>
+      </div>
+      <div class="right">
+        <div class="content">
+          <p id="name">I'm <span id="name_color">Vivek Kairi</span</p>
+          <p id="skills">ANDROID/HYBRID DEVELOPER · WEB DEVELOPER · JAVAFX ·</p>
+          <p id="email">KAIRIVIVEK@GMAIL.COM</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
