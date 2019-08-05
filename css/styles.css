@@ -12,6 +12,9 @@ img {
   padding-bottom: 10px;
 }
 
+a {
+  margin: auto 5px;
+}
 .container {
   display: flex;
 }
@@ -31,14 +34,48 @@ img {
 
 .content {
   position: relative;
-  top: 20%;
+  top: 24%;
   left: 5%;
 }
+
 .city {
    color: #eeeeee;
    font-family: 'Work Sans',sans-serif;
    font-size: 1.2rem;
- }
+}
+
+.fa {
+  padding: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+   opacity: 0.7;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.github {
+  background: #bd2c00;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
 
 #name {
   font-family: 'Sacramento', cursive;
@@ -64,6 +101,7 @@ img {
 #email {
   margin: 0;
   padding-top: 2px;
+  margin-bottom: 15px;
   font-family: 'Saira Extra Condensed',sans-serif;
   font-size: 1.2rem;
   color: #00adb5;
